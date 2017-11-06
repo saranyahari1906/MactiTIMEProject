@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="59022" started-at="2017-11-05T18:55:32Z" finished-at="2017-11-05T18:56:31Z">
+    <groups>
+    </groups>
+    <test name="Chrome Test" duration-ms="59022" started-at="2017-11-05T18:55:32Z" finished-at="2017-11-05T18:56:31Z">
+      <class name="com.demo.Test2">
+        <test-method status="PASS" signature="Launch(java.lang.String)[pri:0, instance:com.demo.Test2@ac3a89]" name="Launch" is-config="true" duration-ms="17621" started-at="2017-11-06T00:25:32Z" finished-at="2017-11-06T00:25:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method status="PASS" signature="searchSelenium()[pri:0, instance:com.demo.Test2@ac3a89]" name="searchSelenium" duration-ms="13851" started-at="2017-11-06T00:25:49Z" finished-at="2017-11-06T00:26:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchSelenium -->
+        <test-method status="PASS" signature="testClose()[pri:0, instance:com.demo.Test2@ac3a89]" name="testClose" is-config="true" duration-ms="1147" started-at="2017-11-06T00:26:03Z" finished-at="2017-11-06T00:26:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClose -->
+      </class> <!-- com.demo.Test2 -->
+      <class name="com.demo.Test3">
+        <test-method status="PASS" signature="Launch(java.lang.String)[pri:0, instance:com.demo.Test3@1c20538]" name="Launch" is-config="true" duration-ms="9964" started-at="2017-11-06T00:26:04Z" finished-at="2017-11-06T00:26:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method status="PASS" signature="searchSelenium()[pri:0, instance:com.demo.Test3@1c20538]" name="searchSelenium" duration-ms="15347" started-at="2017-11-06T00:26:14Z" finished-at="2017-11-06T00:26:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchSelenium -->
+        <test-method status="PASS" signature="testClose()[pri:0, instance:com.demo.Test3@1c20538]" name="testClose" is-config="true" duration-ms="987" started-at="2017-11-06T00:26:30Z" finished-at="2017-11-06T00:26:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClose -->
+      </class> <!-- com.demo.Test3 -->
+    </test> <!-- Chrome Test -->
+    <test name="Firefox Test" duration-ms="59004" started-at="2017-11-05T18:55:32Z" finished-at="2017-11-05T18:56:31Z">
+      <class name="com.demo.Test2">
+        <test-method status="PASS" signature="Launch(java.lang.String)[pri:0, instance:com.demo.Test2@ebc39e]" name="Launch" is-config="true" duration-ms="20453" started-at="2017-11-06T00:25:32Z" finished-at="2017-11-06T00:25:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method status="PASS" signature="searchSelenium()[pri:0, instance:com.demo.Test2@ebc39e]" name="searchSelenium" duration-ms="10815" started-at="2017-11-06T00:25:52Z" finished-at="2017-11-06T00:26:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchSelenium -->
+        <test-method status="PASS" signature="testClose()[pri:0, instance:com.demo.Test2@ebc39e]" name="testClose" is-config="true" duration-ms="1677" started-at="2017-11-06T00:26:03Z" finished-at="2017-11-06T00:26:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClose -->
+      </class> <!-- com.demo.Test2 -->
+      <class name="com.demo.Test3">
+        <test-method status="PASS" signature="Launch(java.lang.String)[pri:0, instance:com.demo.Test3@4bee09]" name="Launch" is-config="true" duration-ms="12972" started-at="2017-11-06T00:26:05Z" finished-at="2017-11-06T00:26:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method status="PASS" signature="searchSelenium()[pri:0, instance:com.demo.Test3@4bee09]" name="searchSelenium" duration-ms="12001" started-at="2017-11-06T00:26:18Z" finished-at="2017-11-06T00:26:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchSelenium -->
+        <test-method status="PASS" signature="testClose()[pri:0, instance:com.demo.Test3@4bee09]" name="testClose" is-config="true" duration-ms="982" started-at="2017-11-06T00:26:30Z" finished-at="2017-11-06T00:26:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClose -->
+      </class> <!-- com.demo.Test3 -->
+    </test> <!-- Firefox Test -->
+  </suite> <!-- Suite -->
+</testng-results>
